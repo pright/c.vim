@@ -47,17 +47,17 @@ endif
 "  Ctrl-F9   run executable
 " Shift-F9   command line arguments
 "
- map  <buffer>  <silent>  <A-F9>       :call C_Compile()<CR>:call C_HlMessage()<CR>
-imap  <buffer>  <silent>  <A-F9>  <C-C>:call C_Compile()<CR>:call C_HlMessage()<CR>
-"
- map  <buffer>  <silent>    <F9>       :call C_Link()<CR>:call C_HlMessage()<CR>
-imap  <buffer>  <silent>    <F9>  <C-C>:call C_Link()<CR>:call C_HlMessage()<CR>
-"
- map  <buffer>  <silent>  <C-F9>       :call C_Run()<CR>
-imap  <buffer>  <silent>  <C-F9>  <C-C>:call C_Run()<CR>
-"
- map  <buffer>  <silent>  <S-F9>       :call C_Arguments()<CR>
-imap  <buffer>  <silent>  <S-F9>  <C-C>:call C_Arguments()<CR>
+ "map  <buffer>  <silent>  <A-F9>       :call C_Compile()<CR>:call C_HlMessage()<CR>
+"imap  <buffer>  <silent>  <A-F9>  <C-C>:call C_Compile()<CR>:call C_HlMessage()<CR>
+""
+ "map  <buffer>  <silent>    <F9>       :call C_Link()<CR>:call C_HlMessage()<CR>
+"imap  <buffer>  <silent>    <F9>  <C-C>:call C_Link()<CR>:call C_HlMessage()<CR>
+""
+ "map  <buffer>  <silent>  <C-F9>       :call C_Run()<CR>
+"imap  <buffer>  <silent>  <C-F9>  <C-C>:call C_Run()<CR>
+""
+ "map  <buffer>  <silent>  <S-F9>       :call C_Arguments()<CR>
+"imap  <buffer>  <silent>  <S-F9>  <C-C>:call C_Arguments()<CR>
 "
 " ---------- alternate file plugin (a.vim) ----------------------
 "

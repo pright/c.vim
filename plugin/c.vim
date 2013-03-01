@@ -963,14 +963,14 @@ function! C_InitMenus ()
 	"----- Menu : run  ----- --------------------------------------------------   {{{2
 	"===============================================================================================
 	"
-	exe "amenu  <silent>  ".s:MenuRun.'.save\ and\ &compile<Tab>\\rc\ \ \<A-F9\>         :call C_Compile()<CR>:call C_HlMessage()<CR>'
-	exe "imenu  <silent>  ".s:MenuRun.'.save\ and\ &compile<Tab>\\rc\ \ \<A-F9\>    <C-C>:call C_Compile()<CR>:call C_HlMessage()<CR>'
-	exe "amenu  <silent>  ".s:MenuRun.'.&link<Tab>\\rl\ \ \ \ \<F9\>                     :call C_Link()<CR>:call C_HlMessage()<CR>'
-	exe "imenu  <silent>  ".s:MenuRun.'.&link<Tab>\\rl\ \ \ \ \<F9\>                <C-C>:call C_Link()<CR>:call C_HlMessage()<CR>'
-	exe "amenu  <silent>  ".s:MenuRun.'.&run<Tab>\\rr\ \ \<C-F9\>                        :call C_Run()<CR>'
-	exe "imenu  <silent>  ".s:MenuRun.'.&run<Tab>\\rr\ \ \<C-F9\>                   <C-C>:call C_Run()<CR>'
-	exe "amenu  <silent>  ".s:MenuRun.'.cmd\.\ line\ &arg\.<Tab>\\ra\ \ \<S-F9\>         :call C_Arguments()<CR>'
-	exe "imenu  <silent>  ".s:MenuRun.'.cmd\.\ line\ &arg\.<Tab>\\ra\ \ \<S-F9\>    <C-C>:call C_Arguments()<CR>'
+	"exe "amenu  <silent>  ".s:MenuRun.'.save\ and\ &compile<Tab>\\rc\ \ \<A-F9\>         :call C_Compile()<CR>:call C_HlMessage()<CR>'
+	"exe "imenu  <silent>  ".s:MenuRun.'.save\ and\ &compile<Tab>\\rc\ \ \<A-F9\>    <C-C>:call C_Compile()<CR>:call C_HlMessage()<CR>'
+	"exe "amenu  <silent>  ".s:MenuRun.'.&link<Tab>\\rl\ \ \ \ \<F9\>                     :call C_Link()<CR>:call C_HlMessage()<CR>'
+	"exe "imenu  <silent>  ".s:MenuRun.'.&link<Tab>\\rl\ \ \ \ \<F9\>                <C-C>:call C_Link()<CR>:call C_HlMessage()<CR>'
+	"exe "amenu  <silent>  ".s:MenuRun.'.&run<Tab>\\rr\ \ \<C-F9\>                        :call C_Run()<CR>'
+	"exe "imenu  <silent>  ".s:MenuRun.'.&run<Tab>\\rr\ \ \<C-F9\>                   <C-C>:call C_Run()<CR>'
+	"exe "amenu  <silent>  ".s:MenuRun.'.cmd\.\ line\ &arg\.<Tab>\\ra\ \ \<S-F9\>         :call C_Arguments()<CR>'
+	"exe "imenu  <silent>  ".s:MenuRun.'.cmd\.\ line\ &arg\.<Tab>\\ra\ \ \<S-F9\>    <C-C>:call C_Arguments()<CR>'
 	"
 	exe "amenu  <silent>  ".s:MenuRun.'.-SEP0-                            :'
 	exe "amenu  <silent>  ".s:MenuRun.'.&make<Tab>\\rm                                    :call C_Make()<CR>'
